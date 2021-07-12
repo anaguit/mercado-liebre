@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #EAC926;
+    padding: 15px;
+}
+
+.header-logo-busqueda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 30%;
+}
+
+.barra-busqueda{
+    width: 50%;
+    height: 30px;
+}
+.input-busqueda{
+    margin-left: 15px;
+    width:50%;
+}
+
+
+#forma-compra-header{
+    text-align: center;
+    font-size:13px;
+}
+
+#menu-hambur{
+    margin-left: 50%;
+    background-color:#1259c3;
+    padding: 4px;
+    border-radius: 4px;
+    color:white;
+}
+
+.barra-nav{
+    font-size: 12px;
+    display:none;
+}
+.barra-nav a{
+    text-decoration:none;
+    color:black;
+}
+
+#img-homme{
+    width: 100%;
+}
+
+main{
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+footer{
+    margin-top: 15px;
+}
+.tamanio-producto{
+    width:90%;
+}
+
+.fondo-producto{
+    background-color: white;
+    margin: 0% 5%;
+}
+
+.titulares{
+    font-size: 24px;
+    color:#666;
+}
+.envio{
+    display: block;
+    font-size: 16px;
+    color:#39b54a;
+    border: solid 1px #39b54a;
+    padding:5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right:20px;
+    top:-15px;
+}
+.precio{
+    font-size: 18px;
+    flex-grow: 0.3;
+}
+.descuento{
+    font-size: 16px;
+    color:#39b54a;
+    flex-grow: 0.7;
+}
+.descripcion-articulo{
+    font-size: 16px;
+    display:none;
+}
+
+.box{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    text-align: left;
+    box-sizing: border-box;
+    margin:0% 0% 5% 0%;
+    background-color: white;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+.caja-precio-descuento{
+    display: flex;
+}
+.descripcion{
+    font-size: 16px;
+}
+.texto{
+    font-size: 12px;
+}
+
+.articulo-pie{
+    text-align: center;
+}
+.icono-pie{
+    color:#1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#copy{
+    font-size: 12px;
+}
+
+.input-formulario{
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.boton-formulario{
+    width: 25%;
+    height: 30px;
+    background-color:#1259c3;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.campos-del-formulario{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+@media (min-width:361px){
+
+    .header-superior{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #forma-compra-header{
+        max-width: 200px;
+        text-align: right;
+    }
+    
+    #menu-hambur{
+        display: none;
+    }
+    .barra-nav{
+        display:block;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .barra-nav ul{
+        display: flex;
+    }
+
+    .titulares{
+        padding: 5%;
+    }
+
+    .descripcion-articulo{
+        display: block;
+    }
+
+    .barra-nav li{
+        margin:0px 7px;
+    }
+
+    .fondo-producto{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+
+    .contenedor-1-seccion{
+        display: flex;
+    }
+
+    .titulares{
+        text-align: left;
+    }
+
+
+}    
+@media (min-width:769px){
+    .contenedor-2-secciones{
+        display: flex;
+    }
+}
